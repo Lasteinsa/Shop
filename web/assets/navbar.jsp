@@ -23,4 +23,13 @@
       </li>
     </ul>
   </div>
+  <%
+      if (session.getAttribute("susername") != null) {
+          %>
+            <form action="logout.jsp" method="post" class="form-inline my-2 my-lg-0">
+                <h6> Hello <%= session.getAttribute("sname") %> </h6>
+                <button class="btn badge-danger mx-4 my-2 my-sm-0" type="submit" onclick="return confirm('Logout?')">Logout</button>
+            </form>
+          <%
+      } %>
 </nav>
