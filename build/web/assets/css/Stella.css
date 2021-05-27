@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+body {
+    background-color: black;
+}
+
+#logomain {
+    color: white;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+#catlog {
+    padding: 25px 50px;
+}
+
+.bg-transparent-dark {
+    background: rgba(0,0,0, 0.4) !important;
+}
+.text-black {
+    color: black !important;
+}
+.container {
+  padding: 80px 120px;
+}
+.person {
+  border: 10px solid;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: white;
+}
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+.welcome {
+  background-image: url(../images/highlight1.jpg);
+  width: 100%;
+  background-size: cover;
+}
+.layer {
+  background: rgba(0,0,0, 0.4);
+  padding: 8% 10% 10% 7%;
+  margin-right: 0;
+  font-size: 16pt;
+}
+.thecart {
+    margin: 25px 10%;
+}
+
+/* Side Scroll */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
