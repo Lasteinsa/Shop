@@ -31,8 +31,8 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        <div id="catlog">
-            <center><h3>Catalog</h3></center>
+        <br><br>
+        <div class="d-flex justify-content-center"><h3>Catalog</h3></div>
             <br><br>
             <div class="card-deck">
                 <div class="card">

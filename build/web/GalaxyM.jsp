@@ -24,7 +24,7 @@
             </div>
         </div>
         <br>
-    <center><h2>Catalog</h2></center>
+        <div class="d-flex justify-content-center"><h2>Catalog</h2></div>
         <%
             String id = request.getParameter("id");
             if(id!=null)
@@ -34,10 +34,12 @@
                 cart.addItem(id, desc, price.floatValue(),1);
             }
         %>
-        <a href="cart.jsp">Shopping Cart Quantity</a>
+        <div class="d-flex justify-content-center">
+            <a href="cart.jsp">Shopping Cart Quantity @ </a>
         <%=
             cart.getNumOfItems()
                     %>
+        </div>
         <hr width="80%">
         <div class="card-group">
         <%

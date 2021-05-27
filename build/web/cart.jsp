@@ -53,7 +53,7 @@
                             <input type="hidden" name="id" value="<%= res.getString("id")%>">
                             <%
                                 } %>
-                            <button type="submit" class="btn btn-danger">Remove</button>
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Delete?')">Remove</button>
                         </form>
                     </td>
                   </tr>

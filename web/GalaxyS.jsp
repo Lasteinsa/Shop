@@ -35,7 +35,12 @@
                 cart.addItem(id, desc, price.floatValue(),1);
             }
         %>
-        <a href="cart.jsp">Shopping Cart Quantity</a>
+        <div class="d-flex justify-content-center">
+            <a href="cart.jsp">Shopping Cart Quantity @</a>
+        <%=
+            cart.getNumOfItems()
+                    %>
+        </div>
         <%=
             cart.getNumOfItems()
                     %>
