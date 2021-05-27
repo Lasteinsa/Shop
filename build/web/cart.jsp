@@ -18,7 +18,7 @@
             <table class="table table-hover">
                 <thead>
                   <tr>
-                    <th scope="col" style="width:25px;">No</th>
+                    <th scope="col" width="25px">No</th>
                     <th scope="col">Name Product</th>
                     <th scope="col">Price</th>
                     <th scope="col">Quantity</th>
@@ -70,6 +70,11 @@
                 </tr>
                 </tbody>
             </table>
+            <div class="d-flex justify-content-center mt-5">
+                <form action="pay.jsp">
+                    <button type="submit" class="btn btn-info">Pay Now!</button>
+                </form>
+            </div>
         </div>
     </body>
 </html>
