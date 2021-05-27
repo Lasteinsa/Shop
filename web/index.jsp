@@ -34,6 +34,7 @@
         <br><br>
         <div class="d-flex justify-content-center"><h3>Catalog</h3></div>
             <br><br>
+            <div id="catlog">
             <div class="card-deck">
                 <div class="card">
                   <img class="card-img-top" src="assets/images/galaxyA.jpg" alt="Card image cap">
@@ -69,6 +70,7 @@
                   </div>
                 </div>
             </div>
+                </div>
         </div>
         
         
