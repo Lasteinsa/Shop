@@ -49,6 +49,16 @@ body {
   width: 100%;
   background-size: cover;
 }
+.welcome-b {
+  background-image: url(../images/highlight2.jpg);
+  width: 100%;
+  background-size: cover;
+}
+.welcome-c {
+  background-image: url(../images/highlight3.jpg);
+  width: 100%;
+  background-size: cover;
+}
 .layer {
   background: rgba(0,0,0, 0.4);
   padding: 8% 10% 10% 7%;

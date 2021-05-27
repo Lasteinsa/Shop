@@ -10,7 +10,7 @@
     </head>
     <body>
         <jsp:include page="assets/navbar.jsp"/>
-        <div class="welcome">
+        <div class="welcome-c">
             <div class="row layer">
                 <div class="row">
                   <div class="col-lg-12 col-sm-12 text-white">
