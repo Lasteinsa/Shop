@@ -41,9 +41,6 @@
             cart.getNumOfItems()
                     %>
         </div>
-        <%=
-            cart.getNumOfItems()
-                    %>
         <hr width="80%">
         <div class="card-group">
             <%

@@ -51,7 +51,7 @@
             ResultSet res = st.executeQuery(sql);
             while(res.next()) {
         %>
-            <form method="post" action="GalaxyS.jsp">
+            <form method="post" action="GalaxyM.jsp">
                 <div id="catlog">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/<%= res.getString(3)%>.jpg" alt="Card image cap">
