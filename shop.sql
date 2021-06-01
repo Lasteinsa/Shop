@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 26, 2021 at 06:58 PM
--- Server version: 10.4.8-MariaDB
--- PHP Version: 7.1.32
+-- Generation Time: Jun 01, 2021 at 04:23 PM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 7.4.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -55,6 +54,52 @@ INSERT INTO `product` (`id`, `name`, `type`, `series`, `price`, `description`) V
 (11, 'Samsung Galaxy M21', 'M21', 'Series M', 277, '6.4 inch touchscreen display with a resolution of 1080x2340 pixels. Powered by Samsung Exynos 9611. Comes with 4 or 6GB of RAM. 6000mAh battery. Supports wireless charging, and fast charging.'),
 (12, 'Samsung Galaxy M20', 'M20', 'Series M', 316, '6.3 inch touchscreen display with a resolution of 1080x2340 pixels. Powered by Samsung Exynos 7904. Comes with 3 or 4GB of RAM. 5000mAh battery. Supports wireless charging, and fast charging.');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `transaction`
+--
+
+CREATE TABLE `transaction` (
+  `id` int(25) NOT NULL,
+  `uid` varchar(25) NOT NULL,
+  `idnumber` varchar(255) NOT NULL,
+  `expired` varchar(25) NOT NULL,
+  `cvc` int(25) NOT NULL,
+  `holder` varchar(255) NOT NULL,
+  `total` varchar(255) NOT NULL,
+  `address` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `transaction`
+--
+
+INSERT INTO `transaction` (`id`, `uid`, `idnumber`, `expired`, `cvc`, `holder`, `total`, `address`) VALUES
+(1, '1', '442344234423', '12/23', 323, 'Ruby', '', ''),
+(2, '1', '4444 4444 4444 4444', '04 / 44', 444, 'Ruby', 'null', 'Jaelani 1'),
+(3, '1', '4444 4444 4444 4444', '02 / 22', 2222, 'Ruby', '1000.0', 'Jl');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `uid` int(11) NOT NULL,
+  `username` varchar(25) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`uid`, `username`, `password`, `name`) VALUES
+(1, 'ruby', 'helloworld', 'Ruby Ahmad Fauzan');
+
 --
 -- Indexes for dumped tables
 --
@@ -66,6 +111,19 @@ ALTER TABLE `product`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `transaction`
+--
+ALTER TABLE `transaction`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `uid` (`uid`);
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`uid`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -74,6 +132,18 @@ ALTER TABLE `product`
 --
 ALTER TABLE `product`
   MODIFY `id` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
+-- AUTO_INCREMENT for table `transaction`
+--
+ALTER TABLE `transaction`
+  MODIFY `id` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
