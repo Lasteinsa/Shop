@@ -1,0 +1,37 @@
+						<table class="table table-hover">
+                                                    <thead>
+                                                      <tr>
+                                                        <th scope="col" width="25px">No</th>
+                                                        <th scope="col">Name Product</th>
+                                                        <th scope="col">Price</th>
+                                                        <th scope="col">Quantity</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <%
+                                                            Enumeration e = cart.getEnumeration();
+                                                            String[] tmpItem;
+                                                            int I = 1;
+                                                            while(e.hasMoreElements())
+                                                            {
+                                                                tmpItem=(String[])e.nextElement();
+                                                        %>
+                                                      <tr>
+                                                        <th scope="row"><%= I %></th>
+                                                        <td><%=tmpItem[1] %></td>
+                                                        <td>$ <%=tmpItem[2] %></td>
+                                                        <td>@<%=tmpItem[3] %></td>
+                                                      </tr>
+                                                      <%
+                                                          I++;
+                                                        }
+                                                    %>
+                                                    <tr>
+                                                        <td>Total</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>$ <%= cart.getCost() %></td>
+                                                        <input type="hidden" name="total" value="<%= Float.toString(cart.getCost()) %>">
+                                                    </tr>
+                                                    </tbody>
+                                                </table>

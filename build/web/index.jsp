@@ -82,4 +82,7 @@
               });
         </script>
     </body>
+    <footer>
+        <jsp:include page="assets/footer.jsp"/>
+    </footer>
 </html>

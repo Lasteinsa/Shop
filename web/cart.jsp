@@ -14,7 +14,7 @@
         <br><br>
         <div class="d-flex justify-content-center"><h2> My Cart Order </h2></div>
         <hr width="60%">
-        <div class="thecart">
+        <div class="thecart" style="margin-bottom: 200px">
             <table class="table table-hover">
                 <thead>
                   <tr>
@@ -77,4 +77,7 @@
             </div>
         </div>
     </body>
+    <footer>
+        <jsp:include page="assets/footer.jsp"/>
+    </footer>
 </html>

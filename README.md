@@ -1,4 +1,5 @@
 <h2> Simple Shop Cart JSP </h2>
+<p> This is very very simple app Shop </p>
 <br>
 <h4> How to ? </h4>
 <br>

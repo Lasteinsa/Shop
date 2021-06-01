@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e1e5ea;">
     <a class="navbar-brand" href=""><img src="assets/images/logo.png" width="120px" class="d-inline-block align-top"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,5 +31,8 @@
                 <button class="btn badge-danger mx-4 my-2 my-sm-0" type="submit" onclick="return confirm('Logout?')">Logout</button>
             </form>
           <%
-      } %>
+      } else { %>
+    <a href="loginpage.jsp" class="btn badge-primary mx-4 my-2 my-sm-0">Login</a>
+            <%
+        }%>
 </nav>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 01, 2021 at 04:23 PM
+-- Generation Time: Jun 01, 2021 at 10:49 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.15
 
@@ -76,9 +76,11 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`id`, `uid`, `idnumber`, `expired`, `cvc`, `holder`, `total`, `address`) VALUES
-(1, '1', '442344234423', '12/23', 323, 'Ruby', '', ''),
-(2, '1', '4444 4444 4444 4444', '04 / 44', 444, 'Ruby', 'null', 'Jaelani 1'),
-(3, '1', '4444 4444 4444 4444', '02 / 22', 2222, 'Ruby', '1000.0', 'Jl');
+(4, '1', '5555 3534 2334 5553', '02 / 22', 212, 'Ruby', '444.0', 'Jaelani'),
+(5, '1', '4322 5633 5655 5533', '12 / 21', 111, 'Ruby', '444.0', 'Jaelani 2'),
+(6, '1', '2445 6656 7767 7777', '12 / 22', 222, 'Ruby', '499.0', 'Jaelani'),
+(7, '1', '4432 3342 1313 3232', '12 / 22', 202, 'Ruby', '1337.0', 'Jl. H. Jaelani 1'),
+(8, '1', '8894 2234 1124 2121', '12 / 24', 222, 'Ruby', '1742.0', 'Jl. H. Jaelani 1');
 
 -- --------------------------------------------------------
 
@@ -137,7 +139,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT for table `transaction`
 --
 ALTER TABLE `transaction`
-  MODIFY `id` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `user`

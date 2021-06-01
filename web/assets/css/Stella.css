@@ -6,6 +6,9 @@
 body {
     background-color: black;
 }
+footer {
+    bottom: 0 !important;
+}
 
 #logomain {
     color: white;
@@ -18,6 +21,9 @@ body {
     padding: 25px 50px;
 }
 
+.btn {
+    min-width: 100px;
+}
 .bg-transparent-dark {
     background: rgba(0,0,0, 0.4) !important;
 }
