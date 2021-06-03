@@ -36,7 +36,7 @@
             <br><br>
             <div id="catlog">
             <div class="card-deck">
-                <div class="card">
+                <div class="card catlogger">
                   <img class="card-img-top" src="assets/images/galaxyA.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Galaxy A</h5>
@@ -47,7 +47,7 @@
                     <small class="text-muted">Powered by Samsung</small>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card catlogger">
                   <img class="card-img-top" src="assets/images/galaxyM.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Galaxy M</h5>
@@ -58,7 +58,7 @@
                     <small class="text-muted">Powered by Samsung</small>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card catlogger">
                   <img class="card-img-top" src="assets/images/galaxyS.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Galaxy S</h5>

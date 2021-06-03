@@ -21,6 +21,13 @@ footer {
     padding: 25px 50px;
 }
 
+.catlogger {
+    transition: transform 0.7s;
+}
+.catlogger:hover {
+    
+    transform: scale(1.03); 
+}
 .btn {
     min-width: 100px;
 }

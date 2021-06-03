@@ -50,7 +50,7 @@
             while(res.next()) {
         %>
             <form method="post" action="GalaxyA.jsp">
-                <div id="catlog">
+                <div id="catlog" class="catlogger">
                     <div class="card" style="width: 20rem;">
                         <img class="card-img-top" src="assets/images/<%= res.getString(3)%>.jpg" alt="Card image cap">
                         <div class="card-body">
