@@ -40,7 +40,11 @@
                   <img class="card-img-top" src="assets/images/galaxyA.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Galaxy A</h5>
-                    <p class="card-text">The best Price to Performance</p>
+                    <p class="card-text">
+                        The best Price to Performance. We offer great performance that
+                        you can afford with a low price. using Exynos processor maintained by
+                        original Samsung give you a powerfull of experience, fast, and comfortable.
+                    </p>
                   </div>
                   <div class="card-footer">
                       <a href="GalaxyA.jsp" class="thelink">Learn More</a> <br>
@@ -51,7 +55,12 @@
                   <img class="card-img-top" src="assets/images/galaxyM.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Galaxy M</h5>
-                    <p class="card-text">Long last battery life</p>
+                    <p class="card-text">
+                        Long last battery life. We have technology that give you the real
+                        battery power. this series we focused on long last battery with maximum
+                        capacity and low power consumption so that you can carry your beloved Samsung Mobile
+                        M Series all day.
+                    </p>
                   </div>
                   <div class="card-footer">
                       <a href="GalaxyM.jsp" class="thelink">Learn More</a> <br>
@@ -62,7 +71,11 @@
                   <img class="card-img-top" src="assets/images/galaxyS.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Galaxy S</h5>
-                    <p class="card-text">The most Flagship that you can't buy. coz it's expensive</p>
+                    <p class="card-text">
+                        The most Flagship we proud of ever. this S Series is God of Smartphone.
+                        We bring the most latest technology that human create into Samsung Galaxy S series.
+                        Fast performance, Powerfull multitask, Long last battery, Camera, etc.
+                    </p>
                   </div>
                   <div class="card-footer">
                       <a href="GalaxyS.jsp" class="thelink">Learn More</a> <br>
