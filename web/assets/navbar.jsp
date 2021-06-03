@@ -21,6 +21,9 @@
           <a class="dropdown-item" href="GalaxyS.jsp">Galaxy S</a>
         </div>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link ml-5" href="about.jsp"><span class="glyphicon glyphicon-shopping-cart"></span>About us</a>
+      </li>
     </ul>
   </div>
   <%

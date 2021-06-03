@@ -1,0 +1,20 @@
+/* 
+    Created on : Jun 3, 2021
+    Author     : Einsa
+*/
+body {
+    background-color: #eeeeee;
+}
+
+.us {
+    max-width: 18rem;
+    background-color: white;
+    border-radius: 15px;    
+    padding: 15px;
+}
+.member {
+  padding: 10px;
+}
+.profiles {
+    border-radius: 15px;
+}
