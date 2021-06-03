@@ -53,7 +53,7 @@
         %>
             <form method="post" action="GalaxyM.jsp">
                 <div id="catlog" class="catlogger">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 22rem;">
                         <img class="card-img-top" src="assets/images/<%= res.getString(3)%>.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title"><%=res.getString(2)%></h5>
