@@ -32,7 +32,7 @@
             </a>
           </div>
         <br><br>
-        <div class="d-flex justify-content-center"><h3>Catalog</h3></div>
+        <h3>Catalog</h3></div>
             <br><br>
             <div id="catlog">
             <div class="card-deck">
